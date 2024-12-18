@@ -4,8 +4,16 @@ body {
 
 h3 {
   color: white;
-  font-size: 250%;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 350%;
+  font-family: "IBM Plex Mono", "Courier", monospace;
+  text-shadow: 6px 6px 10px yellow;
+  word-spacing: 8px;
+  text-decoration-line: underline;
+}
+
+h1 {
+  color: white;
+  font-size: 240%;
   text-shadow: 6px 6px 10px yellow;
   word-spacing: 8px;
 }
@@ -16,4 +24,33 @@ img {
 
 img:hover {
   width: 30%;
+}
+
+ul {
+  list-style-type: none;
+  background-color: black;
+  margin: 0;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+li{
+  display: inline;
+  padding: 8px 50px;
+  float: left
+}
+
+a {
+  text-decoration: none;
+  font-size: 120%;
+  color: white;
+}
+
+li a:hover {
+  background-color: red;
+  padding: 30px;
 }
